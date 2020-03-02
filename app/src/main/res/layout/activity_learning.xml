@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/learning_activity_bg"
+    tools:context=".LearningActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tabla_btn_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/learning_activity_tabla"
+            android:layout_marginBottom="5dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/guitter_btn_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/learning_activity_guitter"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/tabla_btn_id"
+            android:layout_margin="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/setar_btn_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/learning_activity_setar"
+            android:layout_marginBottom="5dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/drum_btn_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/learning_activity_drum"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/setar_btn_id"
+            android:layout_margin="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
